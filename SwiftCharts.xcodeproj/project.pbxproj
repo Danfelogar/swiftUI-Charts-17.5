@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650B2FE42C1E23E8003AF9AD /* SalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B2FE32C1E23E8003AF9AD /* SalesViewModel.swift */; };
+		650B2FEB2C1E28F6003AF9AD /* MonthlyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B2FEA2C1E28F6003AF9AD /* MonthlyChartView.swift */; };
+		650B2FED2C1E2907003AF9AD /* WeeklyChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B2FEC2C1E2907003AF9AD /* WeeklyChartsView.swift */; };
+		650B2FEF2C1E2927003AF9AD /* DailySalesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B2FEE2C1E2927003AF9AD /* DailySalesChartView.swift */; };
+		653F7F102C1E2FB900E56F72 /* SimpleBookSalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F7F0F2C1E2FB900E56F72 /* SimpleBookSalesView.swift */; };
+		653F7F122C1E351A00E56F72 /* DetailsBookSalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F7F112C1E351A00E56F72 /* DetailsBookSalesView.swift */; };
+		653F7F142C1E51FD00E56F72 /* SimpleSalesByWeekDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F7F132C1E51FD00E56F72 /* SimpleSalesByWeekDayView.swift */; };
+		653F7F162C1E520E00E56F72 /* SalesByWeekDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F7F152C1E520E00E56F72 /* SalesByWeekDayView.swift */; };
+		6582E1D32C1DF86E00AF5CED /* SwiftChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582E1D22C1DF86E00AF5CED /* SwiftChartsApp.swift */; };
+		6582E1D52C1DF86E00AF5CED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582E1D42C1DF86E00AF5CED /* ContentView.swift */; };
+		6582E1D72C1DF87000AF5CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6582E1D62C1DF86F00AF5CED /* Assets.xcassets */; };
+		6582E1DB2C1DF87000AF5CED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6582E1DA2C1DF87000AF5CED /* Preview Assets.xcassets */; };
+		6582E1E32C1E034B00AF5CED /* BookCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582E1E22C1E034B00AF5CED /* BookCategory.swift */; };
+		6582E1E52C1E04A600AF5CED /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582E1E42C1E04A600AF5CED /* Author.swift */; };
+		6582E1E72C1E05BB00AF5CED /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582E1E62C1E05BB00AF5CED /* Book.swift */; };
+		6582E1E92C1E07C600AF5CED /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582E1E82C1E07C600AF5CED /* Sale.swift */; };
+		6582E1EB2C1E22A400AF5CED /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582E1EA2C1E22A400AF5CED /* Expense.swift */; };
+		65C60BF72C1FA380008B339C /* SalesPerBookCategoryBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60BF62C1FA380008B339C /* SalesPerBookCategoryBarChartView.swift */; };
+		65C60BF92C1FA390008B339C /* SalesPerBookCategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60BF82C1FA390008B339C /* SalesPerBookCategoryHeaderView.swift */; };
+		65C60BFB2C1FA3A1008B339C /* SalesPerBookCategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60BFA2C1FA3A1008B339C /* SalesPerBookCategoryListView.swift */; };
+		65C60BFD2C1FA3AF008B339C /* SalesPerBookCategoryPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60BFC2C1FA3AF008B339C /* SalesPerBookCategoryPieChartView.swift */; };
+		65C60BFF2C1FA3BE008B339C /* SalesPerBookCategoryStackedBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60BFE2C1FA3BE008B339C /* SalesPerBookCategoryStackedBarChartView.swift */; };
+		65C60C012C1FA3CF008B339C /* SalesPerBookCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60C002C1FA3CF008B339C /* SalesPerBookCategoryView.swift */; };
+		65C60C032C1FA3E0008B339C /* SimpleSalesPerBookCategoryPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60C022C1FA3E0008B339C /* SimpleSalesPerBookCategoryPieChartView.swift */; };
+		65C60C052C1FAF7A008B339C /* ExpensesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60C042C1FAF7A008B339C /* ExpensesViewModel.swift */; };
+		65C60C072C1FB2BF008B339C /* ChartAxisExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60C062C1FB2BF008B339C /* ChartAxisExampleView.swift */; };
+		65C60C092C1FB2CC008B339C /* DetailExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60C082C1FB2CC008B339C /* DetailExpensesView.swift */; };
+		65C60C0B2C1FB2DB008B339C /* ExpenseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60C0A2C1FB2DB008B339C /* ExpenseListView.swift */; };
+		65C60C0D2C1FB2EB008B339C /* ExpensesBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60C0C2C1FB2EB008B339C /* ExpensesBarChartView.swift */; };
+		65C60C0F2C1FB2F9008B339C /* ExpensesDetailGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60C0E2C1FB2F9008B339C /* ExpensesDetailGridView.swift */; };
+		65C60C112C1FB307008B339C /* ExpensesLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60C102C1FB307008B339C /* ExpensesLineChartView.swift */; };
+		65C60C132C1FB313008B339C /* SimpleExpensesLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C60C122C1FB313008B339C /* SimpleExpensesLineChartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		650B2FE32C1E23E8003AF9AD /* SalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewModel.swift; sourceTree = "<group>"; };
+		650B2FEA2C1E28F6003AF9AD /* MonthlyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyChartView.swift; sourceTree = "<group>"; };
+		650B2FEC2C1E2907003AF9AD /* WeeklyChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChartsView.swift; sourceTree = "<group>"; };
+		650B2FEE2C1E2927003AF9AD /* DailySalesChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySalesChartView.swift; sourceTree = "<group>"; };
+		653F7F0F2C1E2FB900E56F72 /* SimpleBookSalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBookSalesView.swift; sourceTree = "<group>"; };
+		653F7F112C1E351A00E56F72 /* DetailsBookSalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsBookSalesView.swift; sourceTree = "<group>"; };
+		653F7F132C1E51FD00E56F72 /* SimpleSalesByWeekDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSalesByWeekDayView.swift; sourceTree = "<group>"; };
+		653F7F152C1E520E00E56F72 /* SalesByWeekDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesByWeekDayView.swift; sourceTree = "<group>"; };
+		6582E1CF2C1DF86E00AF5CED /* SwiftCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6582E1D22C1DF86E00AF5CED /* SwiftChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsApp.swift; sourceTree = "<group>"; };
+		6582E1D42C1DF86E00AF5CED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6582E1D62C1DF86F00AF5CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6582E1D82C1DF87000AF5CED /* SwiftCharts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftCharts.entitlements; sourceTree = "<group>"; };
+		6582E1DA2C1DF87000AF5CED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6582E1E22C1E034B00AF5CED /* BookCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCategory.swift; sourceTree = "<group>"; };
+		6582E1E42C1E04A600AF5CED /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		6582E1E62C1E05BB00AF5CED /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		6582E1E82C1E07C600AF5CED /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		6582E1EA2C1E22A400AF5CED /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		65C60BF62C1FA380008B339C /* SalesPerBookCategoryBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesPerBookCategoryBarChartView.swift; sourceTree = "<group>"; };
+		65C60BF82C1FA390008B339C /* SalesPerBookCategoryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesPerBookCategoryHeaderView.swift; sourceTree = "<group>"; };
+		65C60BFA2C1FA3A1008B339C /* SalesPerBookCategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesPerBookCategoryListView.swift; sourceTree = "<group>"; };
+		65C60BFC2C1FA3AF008B339C /* SalesPerBookCategoryPieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesPerBookCategoryPieChartView.swift; sourceTree = "<group>"; };
+		65C60BFE2C1FA3BE008B339C /* SalesPerBookCategoryStackedBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesPerBookCategoryStackedBarChartView.swift; sourceTree = "<group>"; };
+		65C60C002C1FA3CF008B339C /* SalesPerBookCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesPerBookCategoryView.swift; sourceTree = "<group>"; };
+		65C60C022C1FA3E0008B339C /* SimpleSalesPerBookCategoryPieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSalesPerBookCategoryPieChartView.swift; sourceTree = "<group>"; };
+		65C60C042C1FAF7A008B339C /* ExpensesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewModel.swift; sourceTree = "<group>"; };
+		65C60C062C1FB2BF008B339C /* ChartAxisExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartAxisExampleView.swift; sourceTree = "<group>"; };
+		65C60C082C1FB2CC008B339C /* DetailExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailExpensesView.swift; sourceTree = "<group>"; };
+		65C60C0A2C1FB2DB008B339C /* ExpenseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListView.swift; sourceTree = "<group>"; };
+		65C60C0C2C1FB2EB008B339C /* ExpensesBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesBarChartView.swift; sourceTree = "<group>"; };
+		65C60C0E2C1FB2F9008B339C /* ExpensesDetailGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesDetailGridView.swift; sourceTree = "<group>"; };
+		65C60C102C1FB307008B339C /* ExpensesLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesLineChartView.swift; sourceTree = "<group>"; };
+		65C60C122C1FB313008B339C /* SimpleExpensesLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExpensesLineChartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6582E1CC2C1DF86E00AF5CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650B2FE52C1E2629003AF9AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				650B2FE62C1E2632003AF9AD /* Sales stats */,
+				650B2FE72C1E263E003AF9AD /* Weekday stats */,
+				650B2FE82C1E269C003AF9AD /* Book category stats */,
+				650B2FE92C1E26AC003AF9AD /* Expenses stats */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		650B2FE62C1E2632003AF9AD /* Sales stats */ = {
+			isa = PBXGroup;
+			children = (
+				650B2FEE2C1E2927003AF9AD /* DailySalesChartView.swift */,
+				653F7F112C1E351A00E56F72 /* DetailsBookSalesView.swift */,
+				650B2FEC2C1E2907003AF9AD /* WeeklyChartsView.swift */,
+				650B2FEA2C1E28F6003AF9AD /* MonthlyChartView.swift */,
+				653F7F0F2C1E2FB900E56F72 /* SimpleBookSalesView.swift */,
+			);
+			path = "Sales stats";
+			sourceTree = "<group>";
+		};
+		650B2FE72C1E263E003AF9AD /* Weekday stats */ = {
+			isa = PBXGroup;
+			children = (
+				653F7F132C1E51FD00E56F72 /* SimpleSalesByWeekDayView.swift */,
+				653F7F152C1E520E00E56F72 /* SalesByWeekDayView.swift */,
+			);
+			path = "Weekday stats";
+			sourceTree = "<group>";
+		};
+		650B2FE82C1E269C003AF9AD /* Book category stats */ = {
+			isa = PBXGroup;
+			children = (
+				65C60BF62C1FA380008B339C /* SalesPerBookCategoryBarChartView.swift */,
+				65C60BF82C1FA390008B339C /* SalesPerBookCategoryHeaderView.swift */,
+				65C60BFA2C1FA3A1008B339C /* SalesPerBookCategoryListView.swift */,
+				65C60BFC2C1FA3AF008B339C /* SalesPerBookCategoryPieChartView.swift */,
+				65C60BFE2C1FA3BE008B339C /* SalesPerBookCategoryStackedBarChartView.swift */,
+				65C60C002C1FA3CF008B339C /* SalesPerBookCategoryView.swift */,
+				65C60C022C1FA3E0008B339C /* SimpleSalesPerBookCategoryPieChartView.swift */,
+			);
+			path = "Book category stats";
+			sourceTree = "<group>";
+		};
+		650B2FE92C1E26AC003AF9AD /* Expenses stats */ = {
+			isa = PBXGroup;
+			children = (
+				65C60C062C1FB2BF008B339C /* ChartAxisExampleView.swift */,
+				65C60C082C1FB2CC008B339C /* DetailExpensesView.swift */,
+				65C60C0A2C1FB2DB008B339C /* ExpenseListView.swift */,
+				65C60C0C2C1FB2EB008B339C /* ExpensesBarChartView.swift */,
+				65C60C0E2C1FB2F9008B339C /* ExpensesDetailGridView.swift */,
+				65C60C102C1FB307008B339C /* ExpensesLineChartView.swift */,
+				65C60C122C1FB313008B339C /* SimpleExpensesLineChartView.swift */,
+			);
+			path = "Expenses stats";
+			sourceTree = "<group>";
+		};
+		6582E1C62C1DF86E00AF5CED = {
+			isa = PBXGroup;
+			children = (
+				6582E1D12C1DF86E00AF5CED /* SwiftCharts */,
+				6582E1D02C1DF86E00AF5CED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6582E1D02C1DF86E00AF5CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6582E1CF2C1DF86E00AF5CED /* SwiftCharts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6582E1D12C1DF86E00AF5CED /* SwiftCharts */ = {
+			isa = PBXGroup;
+			children = (
+				6582E1D22C1DF86E00AF5CED /* SwiftChartsApp.swift */,
+				6582E1D42C1DF86E00AF5CED /* ContentView.swift */,
+				650B2FE52C1E2629003AF9AD /* View */,
+				6582E1EC2C1E237B00AF5CED /* View models */,
+				6582E1E12C1E033400AF5CED /* Model */,
+				6582E1D62C1DF86F00AF5CED /* Assets.xcassets */,
+				6582E1D82C1DF87000AF5CED /* SwiftCharts.entitlements */,
+				6582E1D92C1DF87000AF5CED /* Preview Content */,
+			);
+			path = SwiftCharts;
+			sourceTree = "<group>";
+		};
+		6582E1D92C1DF87000AF5CED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6582E1DA2C1DF87000AF5CED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6582E1E12C1E033400AF5CED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6582E1E22C1E034B00AF5CED /* BookCategory.swift */,
+				6582E1E42C1E04A600AF5CED /* Author.swift */,
+				6582E1E62C1E05BB00AF5CED /* Book.swift */,
+				6582E1E82C1E07C600AF5CED /* Sale.swift */,
+				6582E1EA2C1E22A400AF5CED /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6582E1EC2C1E237B00AF5CED /* View models */ = {
+			isa = PBXGroup;
+			children = (
+				650B2FE32C1E23E8003AF9AD /* SalesViewModel.swift */,
+				65C60C042C1FAF7A008B339C /* ExpensesViewModel.swift */,
+			);
+			path = "View models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6582E1CE2C1DF86E00AF5CED /* SwiftCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6582E1DE2C1DF87000AF5CED /* Build configuration list for PBXNativeTarget "SwiftCharts" */;
+			buildPhases = (
+				6582E1CB2C1DF86E00AF5CED /* Sources */,
+				6582E1CC2C1DF86E00AF5CED /* Frameworks */,
+				6582E1CD2C1DF86E00AF5CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCharts;
+			productName = SwiftCharts;
+			productReference = 6582E1CF2C1DF86E00AF5CED /* SwiftCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6582E1C72C1DF86E00AF5CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6582E1CE2C1DF86E00AF5CED = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 6582E1CA2C1DF86E00AF5CED /* Build configuration list for PBXProject "SwiftCharts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6582E1C62C1DF86E00AF5CED;
+			productRefGroup = 6582E1D02C1DF86E00AF5CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6582E1CE2C1DF86E00AF5CED /* SwiftCharts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6582E1CD2C1DF86E00AF5CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6582E1DB2C1DF87000AF5CED /* Preview Assets.xcassets in Resources */,
+				6582E1D72C1DF87000AF5CED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6582E1CB2C1DF86E00AF5CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6582E1EB2C1E22A400AF5CED /* Expense.swift in Sources */,
+				65C60C112C1FB307008B339C /* ExpensesLineChartView.swift in Sources */,
+				653F7F142C1E51FD00E56F72 /* SimpleSalesByWeekDayView.swift in Sources */,
+				6582E1E32C1E034B00AF5CED /* BookCategory.swift in Sources */,
+				65C60C072C1FB2BF008B339C /* ChartAxisExampleView.swift in Sources */,
+				653F7F162C1E520E00E56F72 /* SalesByWeekDayView.swift in Sources */,
+				65C60C012C1FA3CF008B339C /* SalesPerBookCategoryView.swift in Sources */,
+				65C60BFD2C1FA3AF008B339C /* SalesPerBookCategoryPieChartView.swift in Sources */,
+				65C60C132C1FB313008B339C /* SimpleExpensesLineChartView.swift in Sources */,
+				65C60C052C1FAF7A008B339C /* ExpensesViewModel.swift in Sources */,
+				650B2FEB2C1E28F6003AF9AD /* MonthlyChartView.swift in Sources */,
+				6582E1D52C1DF86E00AF5CED /* ContentView.swift in Sources */,
+				65C60BFB2C1FA3A1008B339C /* SalesPerBookCategoryListView.swift in Sources */,
+				653F7F102C1E2FB900E56F72 /* SimpleBookSalesView.swift in Sources */,
+				650B2FE42C1E23E8003AF9AD /* SalesViewModel.swift in Sources */,
+				65C60BF92C1FA390008B339C /* SalesPerBookCategoryHeaderView.swift in Sources */,
+				6582E1E52C1E04A600AF5CED /* Author.swift in Sources */,
+				65C60C0D2C1FB2EB008B339C /* ExpensesBarChartView.swift in Sources */,
+				653F7F122C1E351A00E56F72 /* DetailsBookSalesView.swift in Sources */,
+				650B2FEF2C1E2927003AF9AD /* DailySalesChartView.swift in Sources */,
+				65C60BF72C1FA380008B339C /* SalesPerBookCategoryBarChartView.swift in Sources */,
+				650B2FED2C1E2907003AF9AD /* WeeklyChartsView.swift in Sources */,
+				6582E1E72C1E05BB00AF5CED /* Book.swift in Sources */,
+				65C60C092C1FB2CC008B339C /* DetailExpensesView.swift in Sources */,
+				65C60C0F2C1FB2F9008B339C /* ExpensesDetailGridView.swift in Sources */,
+				65C60BFF2C1FA3BE008B339C /* SalesPerBookCategoryStackedBarChartView.swift in Sources */,
+				6582E1E92C1E07C600AF5CED /* Sale.swift in Sources */,
+				65C60C0B2C1FB2DB008B339C /* ExpenseListView.swift in Sources */,
+				65C60C032C1FA3E0008B339C /* SimpleSalesPerBookCategoryPieChartView.swift in Sources */,
+				6582E1D32C1DF86E00AF5CED /* SwiftChartsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6582E1DC2C1DF87000AF5CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6582E1DD2C1DF87000AF5CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6582E1DF2C1DF87000AF5CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftCharts/SwiftCharts.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftCharts/Preview Content\"";
+				DEVELOPMENT_TEAM = B66B7LDLW4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danfelogar.www.SwiftCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6582E1E02C1DF87000AF5CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftCharts/SwiftCharts.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftCharts/Preview Content\"";
+				DEVELOPMENT_TEAM = B66B7LDLW4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danfelogar.www.SwiftCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6582E1CA2C1DF86E00AF5CED /* Build configuration list for PBXProject "SwiftCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6582E1DC2C1DF87000AF5CED /* Debug */,
+				6582E1DD2C1DF87000AF5CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6582E1DE2C1DF87000AF5CED /* Build configuration list for PBXNativeTarget "SwiftCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6582E1DF2C1DF87000AF5CED /* Debug */,
+				6582E1E02C1DF87000AF5CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6582E1C72C1DF86E00AF5CED /* Project object */;
+}
